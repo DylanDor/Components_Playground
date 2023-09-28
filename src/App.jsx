@@ -1,5 +1,6 @@
 import './App.css'
 import { AkindCard } from './components/Cards/AkindCard/AkindCard'
+import { Counter } from './components/Counter/Counter'
 import { AkindNavbar } from './components/Navbar/AkindNavbar/AkindNavbar'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   <div className="main_container">
     <AkindNavbar />
     <AkindCard />
+    <Counter />
   </div>
   )
 }
